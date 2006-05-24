@@ -1,0 +1,19 @@
+---
+name: DBIx-Jello
+version: 0.0001
+author: ~
+abstract: stupidly flexible object storage
+license: perl
+requires:
+  Class::Data::Inheritable: 0
+  DBD::SQLite: 0
+  DBI: 0
+  Data::UUID: 0
+  Scalar::Util: 0
+  Test::More: 0
+  perl: 5.008
+provides:
+  DBIx::Jello:
+    file: lib/DBIx/Jello.pm
+    version: 0.0001
+generated_by: Module::Build version 0.2612
